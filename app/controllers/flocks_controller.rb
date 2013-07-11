@@ -40,17 +40,28 @@ class FlocksController < ApplicationController
   # POST /flocks
   # POST /flocks.json
   def create
-    @flock = Flock.new(params[:flock])
+    
+    # @flock = Flock.new(params[:flock])
 
-    respond_to do |format|
-      if @flock.save
-        format.html { redirect_to @flock, notice: 'Flock was successfully created.' }
-        format.json { render json: @flock, status: :created, location: @flock }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @flock.errors, status: :unprocessable_entity }
-      end
+    # respond_to do |format|
+    #   if @flock.save
+    #     format.html { redirect_to @flock, notice: 'Flock was successfully created.' }
+    #     format.json { render json: @flock, status: :created, location: @flock }
+    #   else
+    #     format.html { render action: "new" }
+    #     format.json { render json: @flock.errors, status: :unprocessable_entity }
+    #   end
+    # end
+    @handles = []
+    @emails = []
+    params["tweeters"].each do |array|
+      @handles << array["handle"]
+      @emails << array["email"]
     end
+
+    Flocker::execute(@handles,@emails)
+
+    render action: "show"
   end
 
   # PUT /flocks/1

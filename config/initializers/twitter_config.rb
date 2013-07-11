@@ -1,6 +1,6 @@
 Twitter.configure do |config|
-  config.consumer_key = ENV['YOUR_CONSUMER_KEY']
-  config.consumer_secret = ENV['YOUR_CONSUMER_SECRET']
-  config.oauth_token = ENV['YOUR_OAUTH_TOKEN']
-  config.oauth_token_secret = ENV['YOUR_OAUTH_TOKEN_SECRET']
+  config.consumer_key = '5s4qCd17vQHay8T9iyxQrQ'
+  config.consumer_secret = 'xnynhFlIKrPOpmAPVq7TcSJ4zwelPP8RVznPJlhos0'
+  config.oauth_token = '21982035-HUT8Fn9kqIORcMEjLCvtkSn1xCmjIeaACrQKurhUu'
+  config.oauth_token_secret = 'ohbYylKvM10yLYwhZtObv1juqmhXaQ8rBpvgbKIoV3E'
 end

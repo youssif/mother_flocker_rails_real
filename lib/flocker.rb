@@ -1,7 +1,7 @@
 module Flocker
 	class Email
-	  @@username = ENV['GMAILUSER']
-	  @@password = ENV['GMAILPSWD']
+	  @@username = 'motherflockerleaderboard'
+	  @@password ='workhardplayhard'
 
 	  def self.set_handles(tweeters, emails)
 	    @tweeters = tweeters
@@ -197,8 +197,8 @@ module Flocker
 	# flock = Flock.new(['sagarispatel', 'lydiaguarino', 'youssifwashere'])
 	# flock.email_format
 
-  def execute
-	  Email.get_handles
+  def self.execute(handles,emails)
+	  Email.set_handles(handles,emails)
   end
 
 	# Email.send(['lydiahguarino@gmail.com','abdulyoussif@gmail.com'])
