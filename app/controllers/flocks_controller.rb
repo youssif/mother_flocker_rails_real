@@ -13,12 +13,14 @@ class FlocksController < ApplicationController
   # GET /flocks/1
   # GET /flocks/1.json
   def show
-    @flock = Flock.find(params[:id])
+    @leaderboard
 
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @flock }
     end
+
+
   end
 
   # GET /flocks/new
@@ -59,7 +61,7 @@ class FlocksController < ApplicationController
       @emails << array["email"]
     end
 
-    Flocker::execute(@handles,@emails)
+    @leaderboard = Flocker::execute(@handles,@emails)
 
     render action: "show"
   end

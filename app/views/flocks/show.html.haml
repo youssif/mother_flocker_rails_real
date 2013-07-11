@@ -1,3 +1,31 @@
 %h1 The Motherflocker Leaderboard
 
-=image_tag 'Flocker.gif' 
+=image_tag 'Flocker.gif'
+
+%h1="@"+ @leaderboard.first[:handle]
+%h2 is the MOTHER FLOCKER of the week!
+
+%table
+	%tr
+		%th Rank
+		%th Handle
+		%th Total Points
+		%th Total Retweets
+		%th Total Mentions
+		%th Total Tweets
+	-i=1
+	-@leaderboard.each do |tweeter|
+		%tr
+			%td=i
+			-i+=1
+			%td=tweeter[:handle]
+			%td=tweeter[:total_points]
+			%td=tweeter[:retweet_points]/2
+			%td=tweeter[:mention_points]/2
+			%td=tweeter[:tweet_points]
+
+
+%h3 Point Calibration
+%p  Points are calculated based off weekly statistics pulled from the Twitter API measuring: the number of tweets (up to five per day) by a given user, the consistency of tweets (used as a point modifier based off consecutive days a user is tweeting), number of user-originated tweets retweeted by other users, and number of mentions.
+
+

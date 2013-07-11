@@ -22,7 +22,11 @@ module Flocker
 	      email.deliver!
 	    end
 	    gmail.logout
+      flock.leaderboard
+      
 	  end
+
+    
 	end
 
 	class Dates
@@ -185,12 +189,17 @@ module Flocker
 	      @email_output += "@#{tweeter[:handle]} | TOTAL POINTS: #{tweeter[:total_points]} | TOTAL RETWEETS: #{tweeter[:retweet_points]/2} | TOTAL MENTIONS: #{tweeter[:mention_points]/2} | TOTAL TWEETS: #{tweeter[:tweet_points]}
 	      
 	      "
+
 	    end
 
 	    @email_output += "*** Points are calculated based off weekly statistics pulled from the Twitter API measuring: the number of tweets (up to five per day) by a given user, the consistency of tweets (used as a point modifier based off consecutive days a user is tweeting), number of user-originated tweets retweeted by other users, and number of mentions."
 	    # puts @email_output
 	    @email_output
 	  end
+
+    def leaderboard
+      @flock_array
+    end
 
 	end
 

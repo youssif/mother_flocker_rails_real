@@ -11218,3 +11218,2163 @@ Served asset /flocks.js - 304 Not Modified (0ms)
 
 Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 14:17:33 -0700
 Served asset /Flocker.gif - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-11 14:46:16 -0700
+Processing by FlocksController#index as HTML
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" [0m
+  Rendered flocks/index.html.haml within layouts/application (20.8ms)
+Completed 200 OK in 70ms (Views: 49.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 14:46:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /flock.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /tweeter.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /flocks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/MotherFlocker.gif" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /MotherFlocker.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cloudy-sky-cartoon.jpg" for 127.0.0.1 at 2013-07-11 14:46:17 -0700
+Served asset /cloudy-sky-cartoon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (2.0ms)
+  Rendered flocks/new.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[35mFlock Load (0.2ms)[0m  SELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1  [["id", "application"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 14:46:20 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 14:46:49 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}, {"handle"=>"lydiaguarino", "email"=>"lydiahguarino@gmail.com", "name"=>"Lydia Guarino"}]}
+Completed 500 Internal Server Error in 13131ms
+
+NoMethodError (undefined method `leaderboard' for #<Flocker::Flock:0x007fa18ee1d110>):
+  lib/flocker.rb:25:in `send'
+  lib/flocker.rb:9:in `set_handles'
+  lib/flocker.rb:207:in `execute'
+  app/controllers/flocks_controller.rb:62:in `create'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.9ms)
+  Rendered flocks/new.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 68ms (Views: 33.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Served asset /tweeter.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[36mFlock Load (0.2ms)[0m  [1mSELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1[0m  [["id", "application"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Served asset /flock.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Served asset /flocks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 14:48:32 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 14:49:00 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}, {"handle"=>"lydiaguarino", "email"=>"lydiahguarino@gmail.com", "name"=>"Lydia Guarino"}]}
+  Rendered flocks/show.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 14698ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 14:49:15 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:49:15 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:49:15 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:49:15 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:49:15 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:49:15 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:49:15 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:49:15 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 14:49:15 -0700
+Served asset /Flocker.gif - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-11 14:54:18 -0700
+Processing by FlocksController#index as HTML
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" [0m
+  Rendered flocks/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 83ms (Views: 47.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 14:54:18 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:54:18 -0700
+Served asset /flock.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:54:18 -0700
+Served asset /tweeter.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:54:18 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:54:18 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:54:18 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:54:19 -0700
+Served asset /flocks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:54:19 -0700
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 14:54:19 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/MotherFlocker.gif" for 127.0.0.1 at 2013-07-11 14:54:19 -0700
+Served asset /MotherFlocker.gif - 304 Not Modified (1ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.9ms)
+  Rendered flocks/new.html.haml within layouts/application (6.3ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+Completed 500 Internal Server Error in 5ms
+
+NameError (uninitialized class variable @@leaderboard in Flocker::Email):
+  lib/flocker.rb:29:in `leaderboard'
+  app/controllers/flocks_controller.rb:17:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 14:54:23 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 14:54:50 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}, {"handle"=>"lydiaguarino", "email"=>"lydiahguarino@gmail.com", "name"=>"Lydia Guarino"}]}
+  Rendered flocks/show.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 12859ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 14:55:02 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:55:02 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:55:02 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:55:02 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:02 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:02 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:02 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:02 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 14:55:02 -0700
+Served asset /Flocker.gif - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Processing by FlocksController#index as HTML
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" [0m
+  Rendered flocks/index.html.haml within layouts/application (21.3ms)
+Completed 200 OK in 66ms (Views: 46.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /flock.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /tweeter.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /flocks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/MotherFlocker.gif" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /MotherFlocker.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /hatch.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cloudy-sky-cartoon.jpg" for 127.0.0.1 at 2013-07-11 14:55:46 -0700
+Served asset /cloudy-sky-cartoon.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.9ms)
+  Rendered flocks/new.html.haml within layouts/application (6.2ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized class variable @@leaderboard in Flocker::Email):
+  lib/flocker.rb:29:in `leaderboard'
+  app/controllers/flocks_controller.rb:17:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 14:55:50 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 14:56:21 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}, {"handle"=>"lydiaguarino", "email"=>"lydiahguarino@gmail.com", "name"=>"Lydia Guarino"}]}
+  Rendered flocks/show.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 17155ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 14:56:38 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:56:38 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:56:38 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:56:38 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:56:38 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:56:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:56:38 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:56:38 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 14:56:38 -0700
+Served asset /Flocker.gif - 304 Not Modified (1ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 14:56:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 14:56:46 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 14:56:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 14:56:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 14:56:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 14:56:46 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 14:56:46 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 14:56:46 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 14:56:46 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:00:04 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 9884ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:00:14 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:00:14 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:00:14 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:00:14 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:00:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:00:14 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:00:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:00:14 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:00:14 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.8ms)
+  Rendered flocks/new.html.haml within layouts/application (23.4ms)
+Completed 200 OK in 67ms (Views: 48.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Served asset /flock.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Served asset /tweeter.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Served asset /flocks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 15:06:53 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:08:15 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 9565ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:08:24 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:08:25 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:08:25 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:08:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:08:25 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:08:25 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:08:25 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:08:25 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:08:25 -0700
+Served asset /Flocker.gif - 304 Not Modified (1ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:13:17 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.2ms)
+Compiled flock.css  (82ms)  (pid 54684)
+Compiled application.css  (1ms)  (pid 54684)
+Completed 200 OK in 10147ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:13:27 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:13:27 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:13:27 -0700
+Served asset /flock.css - 200 OK (2ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:13:27 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:13:27 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:13:27 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:13:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:13:27 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:13:27 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:20:53 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 13985ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:21:07 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:21:08 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:21:08 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:21:08 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:21:08 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:21:08 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:21:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:21:08 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:21:08 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:33:14 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 9297ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:33:23 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:33:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:33:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:33:23 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:33:23 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:33:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:33:23 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:33:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:33:24 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:37:10 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 10669ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:37:20 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:37:20 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:37:20 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:37:20 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:37:20 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:37:20 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:37:20 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:37:20 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:37:20 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:38:08 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 7623ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:38:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:38:16 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:38:16 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:38:16 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:38:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:38:16 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:38:16 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:38:16 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:38:16 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:39:25 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 7794ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:39:33 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:39:33 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:39:33 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:39:33 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:39:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:39:33 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:39:33 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:39:33 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:39:33 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:40:39 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Compiled flock.css  (76ms)  (pid 54684)
+Compiled application.css  (0ms)  (pid 54684)
+Completed 200 OK in 13365ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:40:52 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:40:52 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:40:52 -0700
+Served asset /flock.css - 200 OK (2ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:40:52 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:40:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:40:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:40:52 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:40:52 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:40:52 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:41:37 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Compiled flock.css  (24ms)  (pid 54684)
+Compiled application.css  (0ms)  (pid 54684)
+Completed 200 OK in 9128ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:41:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:41:47 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:41:47 -0700
+Served asset /flock.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:41:47 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:41:47 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:41:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:41:47 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:41:47 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:41:47 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:42:03 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.4ms)
+Compiled flock.css  (25ms)  (pid 54684)
+Compiled application.css  (1ms)  (pid 54684)
+Completed 200 OK in 9908ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:42:13 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:42:13 -0700
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:42:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:42:13 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:42:13 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:42:13 -0700
+Served asset /flock.css - 200 OK (2ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:42:13 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:42:13 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:42:13 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:42:44 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 7635ms
+
+ActionView::Template::Error (Invalid CSS after "	padding": expected ";", was ": 2%"
+  (in /Users/youssifabdulhamid/Desktop/CODE/mother_flocker/app/assets/stylesheets/flock.css.scss)):
+    6: 	<script src="application.js"></script>
+    7: 
+    8:   <title>MotherFlocker</title>
+    9:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    10:   <%= javascript_include_tag "application" %>
+    11:   <%= csrf_meta_tags %>
+    12: </head>
+  app/assets/stylesheets/flock.css.scss:138
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__4556405505177215645_70192762860000'
+  app/controllers/flocks_controller.rb:66:in `create'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:43:02 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Compiled flock.css  (23ms)  (pid 54684)
+Compiled application.css  (0ms)  (pid 54684)
+Completed 200 OK in 7771ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:43:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:43:10 -0700
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:43:10 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:43:10 -0700
+Served asset /flock.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:43:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:43:10 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:43:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:43:10 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:43:10 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:44:39 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Compiled flock.css  (24ms)  (pid 54684)
+Compiled application.css  (0ms)  (pid 54684)
+Completed 200 OK in 20440ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:44:59 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:44:59 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:44:59 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:44:59 -0700
+Served asset /flock.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:44:59 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:45:00 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:45:00 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:45:00 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:45:00 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:45:15 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Compiled flock.css  (25ms)  (pid 54684)
+Compiled application.css  (0ms)  (pid 54684)
+Completed 200 OK in 16921ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:45:32 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:45:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:45:32 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:45:32 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:45:32 -0700
+Served asset /flock.css - 200 OK (1ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:45:32 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:45:32 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:45:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:45:32 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:46:19 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Compiled flock.css  (26ms)  (pid 54684)
+Compiled application.css  (1ms)  (pid 54684)
+Completed 200 OK in 8319ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:46:27 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:46:27 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:46:27 -0700
+Served asset /flock.css - 200 OK (1ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:46:27 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:46:27 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:46:27 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:46:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:46:27 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:46:27 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:47:41 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 9522ms
+
+ActionView::Template::Error (Invalid CSS after "	padding": expected ";", was ": 0"
+  (in /Users/youssifabdulhamid/Desktop/CODE/mother_flocker/app/assets/stylesheets/flock.css.scss)):
+    6: 	<script src="application.js"></script>
+    7: 
+    8:   <title>MotherFlocker</title>
+    9:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    10:   <%= javascript_include_tag "application" %>
+    11:   <%= csrf_meta_tags %>
+    12: </head>
+  app/assets/stylesheets/flock.css.scss:130
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__4556405505177215645_70192762860000'
+  app/controllers/flocks_controller.rb:66:in `create'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:48:21 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}]}
+  Rendered flocks/show.html.haml within layouts/application (0.3ms)
+Compiled flock.css  (24ms)  (pid 54684)
+Compiled application.css  (0ms)  (pid 54684)
+Completed 200 OK in 7636ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+Served asset /flock.css - 200 OK (2ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cloudy-sky-cartoon.jpg" for 127.0.0.1 at 2013-07-11 15:48:29 -0700
+Served asset /cloudy-sky-cartoon.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:49:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:49:16 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:49:16 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:49:16 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:49:16 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:49:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:49:16 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:49:16 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:49:16 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Processing by FlocksController#index as HTML
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" [0m
+  Rendered flocks/index.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 17ms (Views: 12.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/MotherFlocker.gif" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /MotherFlocker.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cloudy-sky-cartoon.jpg" for 127.0.0.1 at 2013-07-11 15:51:40 -0700
+Served asset /cloudy-sky-cartoon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.2ms)
+  Rendered flocks/new.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+Completed 406 Not Acceptable in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cloudy-sky-cartoon.jpg" for 127.0.0.1 at 2013-07-11 15:52:08 -0700
+Served asset /cloudy-sky-cartoon.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 15:53:00 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "tweeters"=>[{"handle"=>"youssifwashere", "email"=>"abdulyoussif@gmail.com", "name"=>"Youssif Abdulhamid"}, {"handle"=>"silasrioux", "email"=>"silas.rioux@gmail.com", "name"=>"Silas Rioux"}, {"handle"=>"lydiaguarino", "email"=>"lydiahguarino@gmail.com", "name"=>"Lydia Guarino"}]}
+  Rendered flocks/show.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 20386ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 127.0.0.1 at 2013-07-11 15:53:20 -0700
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/youssifabdulhamid/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 15:53:20 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 15:53:20 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 15:53:20 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 15:53:20 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 15:53:20 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 15:53:20 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 15:53:20 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Flocker.gif" for 127.0.0.1 at 2013-07-11 15:53:20 -0700
+Served asset /Flocker.gif - 304 Not Modified (0ms)

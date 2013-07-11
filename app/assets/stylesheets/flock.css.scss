@@ -117,8 +117,31 @@ p {
 	border-radius: 10px;
 }
 
+img{
+	width: 30%;
+}
+
 .flock_create{
 	width: 30em;
+}
+
+table {
+	background-image: url('cloudy-sky-cartoon.jpg');
+	padding: 0
+}
+
+th {
+	font-size:1.5em;
+	font-family: 'Permanent Marker', cursive;
+	margin: 0;
+	color: #2c539e;
+	border: 6px solid black;
+	padding: 2%;
+	margin:0
+}
+
+tr{
+	border: 2px solid gray
 }
 
 	//font-family: 'Eater', cursive;
