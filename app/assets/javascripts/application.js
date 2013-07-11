@@ -13,3 +13,23 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+function generate_new_form(){
+	$('.form_div:first').clone().insertAfter('.form_div:last')
+}
+
+$(document).ready(function() {
+
+	
+	$('.new_tweeter').click(function(event){
+		event.preventDefault();
+		// $('form div:hatch_form').append('.form_div');
+		if ($('.form_div').length < 9){
+			generate_new_form();
+		}
+		else{
+			alert("Your flock is full. Get flocking!");
+		}
+	});
+
+})

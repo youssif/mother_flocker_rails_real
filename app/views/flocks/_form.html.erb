@@ -1,17 +1,30 @@
-<%= form_for(@flock) do |f| %>
-  <% if @flock.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@flock.errors.count, "error") %> prohibited this flock from being saved:</h2>
+<div class="hatch_form">
+  <%= form_for(@flock) do |f| %>
+    <% if @flock.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@flock.errors.count, "error") %> prohibited this flock from being saved:</h2>
 
-      <ul>
-      <% @flock.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+        <ul>
+        <% @flock.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <input type="button" name="submit" class="new_tweeter" value="Create a New Tweeter" />
+    <div class="form_div">
+      <form class="Tweeter">
+          <h3> Enter your tweeter's info! </h3>
+          Twitter Handle: <input type="text" class="input" name="tweeters[][handle]"> <br />
+          E-mail Address: <input type="text" class="input" name="tweeters[][email]"> <br />
+          Name: <input type="text" class="input" name="tweeters[][name]"> <br />
+
+        
+      </form>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
     </div>
   <% end %>
-
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+</div>

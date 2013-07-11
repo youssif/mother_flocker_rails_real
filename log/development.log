@@ -4159,3 +4159,1045 @@ ActionController::RoutingError (No route matches [GET] "/show"):
 
 
   Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 07:44:08 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (6.4ms)
+  Rendered flocks/new.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 25ms (Views: 21.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 07:44:09 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 07:44:09 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 07:44:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 07:44:09 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 07:44:09 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 07:44:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 07:44:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "commit"=>"Create Flock"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.6ms)[0m  INSERT INTO "flocks" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Thu, 11 Jul 2013 14:44:24 UTC +00:00], ["updated_at", Thu, 11 Jul 2013 14:44:24 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/flocks/2
+Completed 302 Found in 12ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/flocks/2" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Processing by FlocksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mFlock Load (0.2ms)[0m  SELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered flocks/show.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/MotherFlocker.gif" for 127.0.0.1 at 2013-07-11 07:44:24 -0700
+Served asset /MotherFlocker.gif - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 07:45:37 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.1ms)
+  Rendered flocks/new.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 07:45:38 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 07:45:38 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 07:45:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 07:45:38 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 07:45:38 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 07:45:38 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 07:45:38 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "commit"=>"Create Flock"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "flocks" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Thu, 11 Jul 2013 14:47:24 UTC +00:00], ["updated_at", Thu, 11 Jul 2013 14:47:24 UTC +00:00]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/flocks/3
+Completed 302 Found in 4ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/flocks/3" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Processing by FlocksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mFlock Load (0.1ms)[0m  SELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered flocks/show.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/MotherFlocker.gif" for 127.0.0.1 at 2013-07-11 07:47:24 -0700
+Served asset /MotherFlocker.gif - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Processing by FlocksController#index as HTML
+  [1m[36mFlock Load (0.2ms)[0m  [1mSELECT "flocks".* FROM "flocks" [0m
+  Rendered flocks/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/MotherFlocker.gif" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /MotherFlocker.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cloudy-sky-cartoon.jpg" for 127.0.0.1 at 2013-07-11 07:47:40 -0700
+Served asset /cloudy-sky-cartoon.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:03:01 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.0ms)
+  Rendered flocks/new.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:03:01 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:03:01 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:03:01 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:03:01 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:03:01 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:03:01 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:03:01 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:03:01 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started POST "/flocks" for 127.0.0.1 at 2013-07-11 08:03:06 -0700
+Processing by FlocksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8xIEdDLqLfraSaLe5ypVOcsl4uzm9fPkFri9l7hTKw=", "commit"=>"Create Flock"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "flocks" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Thu, 11 Jul 2013 15:03:06 UTC +00:00], ["updated_at", Thu, 11 Jul 2013 15:03:06 UTC +00:00]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/flocks/4
+Completed 302 Found in 4ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/flocks/4" for 127.0.0.1 at 2013-07-11 08:03:06 -0700
+Processing by FlocksController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered flocks/show.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:03:07 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:03:07 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:03:07 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:03:07 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:03:07 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:03:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:03:07 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/MotherFlocker.gif" for 127.0.0.1 at 2013-07-11 08:03:07 -0700
+Served asset /MotherFlocker.gif - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:12:27 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.7ms)
+  Rendered flocks/new.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:12:27 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:12:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:12:27 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:12:27 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:12:27 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:12:27 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:12:27 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:12:27 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:16:40 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.7ms)
+  Rendered flocks/new.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:16:40 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:16:40 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:16:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:16:40 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:16:40 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:16:40 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:16:40 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:16:41 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:17:02 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.6ms)
+  Rendered flocks/new.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:17:02 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:17:02 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:17:02 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:17:02 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:17:02 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:17:02 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:17:02 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:17:03 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:21:54 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.5ms)
+  Rendered flocks/new.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 12ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:21:54 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:21:54 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:21:54 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:21:54 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:21:54 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:21:54 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:21:54 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:21:55 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:28:15 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.7ms)
+  Rendered flocks/new.html.haml within layouts/application (2.7ms)
+Compiled application.js  (2ms)  (pid 51565)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:28:15 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[35mFlock Load (0.1ms)[0m  SELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1  [["id", "application"]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:28:15 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:28:15 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:28:15 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:28:15 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:28:15 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:28:15 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:28:15 -0700
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:28:16 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:32:29 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.0ms)
+  Rendered flocks/new.html.haml within layouts/application (2.0ms)
+Compiled application.js  (2ms)  (pid 51565)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:32:29 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1[0m  [["id", "application"]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:32:29 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:32:29 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:32:29 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:32:29 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:32:29 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:32:29 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:32:29 -0700
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:32:30 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.1ms)
+  Rendered flocks/new.html.haml within layouts/application (2.0ms)
+Compiled application.js  (2ms)  (pid 51565)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[35mFlock Load (0.1ms)[0m  SELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1  [["id", "application"]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:33:18 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.0ms)
+  Rendered flocks/new.html.haml within layouts/application (2.0ms)
+Compiled application.js  (2ms)  (pid 51565)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1[0m  [["id", "application"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:33:33 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.1ms)
+  Rendered flocks/new.html.haml within layouts/application (2.1ms)
+Compiled application.js  (2ms)  (pid 51565)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[35mFlock Load (0.1ms)[0m  SELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1  [["id", "application"]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:33:53 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.5ms)
+  Rendered flocks/new.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1[0m  [["id", "application"]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:34:39 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.0ms)
+  Rendered flocks/new.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[35mFlock Load (0.1ms)[0m  SELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1  [["id", "application"]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:34:57 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.1ms)
+  Rendered flocks/new.html.haml within layouts/application (2.1ms)
+Compiled application.js  (2ms)  (pid 51565)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1[0m  [["id", "application"]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:40:45 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:43:32 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.1ms)
+  Rendered flocks/new.html.haml within layouts/application (2.0ms)
+Compiled application.js  (2ms)  (pid 51565)
+Completed 200 OK in 44ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:43:32 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[35mFlock Load (0.1ms)[0m  SELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1  [["id", "application"]]
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:43:33 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:43:33 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:43:33 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:43:33 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:43:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:43:33 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:43:33 -0700
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:43:33 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:45:10 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.0ms)
+  Rendered flocks/new.html.haml within layouts/application (2.0ms)
+Compiled application.js  (2ms)  (pid 51565)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flocks/application.js" for 127.0.0.1 at 2013-07-11 08:45:10 -0700
+Processing by FlocksController#show as JS
+  Parameters: {"id"=>"application"}
+  [1m[36mFlock Load (0.1ms)[0m  [1mSELECT "flocks".* FROM "flocks" WHERE "flocks"."id" = ? LIMIT 1[0m  [["id", "application"]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Flock with id=application):
+  app/controllers/flocks_controller.rb:16:in `show'
+
+
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/youssifabdulhamid/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:45:10 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:45:10 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:45:10 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:45:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:45:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:45:10 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-11 08:45:10 -0700
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/flocks/new" for 127.0.0.1 at 2013-07-11 08:45:31 -0700
+Processing by FlocksController#new as HTML
+  Rendered flocks/_form.html.erb (1.1ms)
+  Rendered flocks/new.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tweeter.css?body=1" for 127.0.0.1 at 2013-07-11 08:45:31 -0700
+Served asset /tweeter.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-11 08:45:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-11 08:45:31 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flock.css?body=1" for 127.0.0.1 at 2013-07-11 08:45:31 -0700
+Served asset /flock.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-11 08:45:31 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flocks.js?body=1" for 127.0.0.1 at 2013-07-11 08:45:31 -0700
+Served asset /flocks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hatch.png" for 127.0.0.1 at 2013-07-11 08:45:32 -0700
+Served asset /hatch.png - 304 Not Modified (0ms)

@@ -2,6 +2,7 @@ MotherFlocker::Application.routes.draw do
   resources :flocks
 
   get '/' => 'flocks#index'
+  get '/flocks/new' => 'flocks#new'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
