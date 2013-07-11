@@ -12,19 +12,25 @@
       </div>
     <% end %>
 
-    <input type="button" name="submit" class="new_tweeter" value="Create a New Tweeter" />
-    <div class="form_div">
+    
+    
       <form class="Tweeter">
+        <div class="form_div">
           <h3> Enter your tweeter's info! </h3>
           Twitter Handle: <input type="text" class="input" name="tweeters[][handle]"> <br />
           E-mail Address: <input type="text" class="input" name="tweeters[][email]"> <br />
           Name: <input type="text" class="input" name="tweeters[][name]"> <br />
 
+        </div>    
         
+        <input type="button" name="add" class="new_tweeter" value="Add a Tweeter" />
+
+        <div class="actions">
+          <%= f.submit "Create Flock", class: "flock_create" %>
+        </div>
+
       </form>
-    </div>
-    <div class="actions">
-      <%= f.submit %>
-    </div>
+    
+    
   <% end %>
 </div>

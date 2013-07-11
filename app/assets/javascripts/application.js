@@ -32,4 +32,18 @@ $(document).ready(function() {
 		}
 	});
 
+	// $('.flock_create').click(function(event){
+	// 	event.preventDefault();
+	// 	// console.log(tweeters);
+	// 	$.ajax({
+	//   		url:'Flocker::Email.set_handles',
+	//   		data: :tweeters,
+	//   		type: "POST"
+	//   		// success: //load the new page,
+	//   		// error: function(xhr,status){
+	//   		// $('#order_form').html("<h2>Sorry, there was an error sending your order to the server, no pun intended.<h2>");
+	//   		// }	
+ //  		});
+	// });
+
 })
