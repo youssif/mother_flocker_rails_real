@@ -1,0 +1,118 @@
+// Place all the styles related to the flock controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+	margin:0
+}
+
+body {
+	text-align: center;
+	margin:0;
+	font-family: 'Rock Salt', cursive;
+}
+
+.flock {
+	width: 50%;
+	margin: auto;
+	margin-bottom: -5%;
+}
+
+#landing{
+	width:100%;
+	background-image: url('cloudy-sky-cartoon.jpg');
+	background-size: 100%;
+	background-align: center;
+	margin:0;
+	text-align: center
+}
+
+h1 {
+	font-size:6em;
+	font-family: 'Londrina Sketch', cursive;
+	margin: 0
+}
+
+h2 {
+	font-size:3em;
+	font-family: 'Permanent Marker', cursive;
+	margin: 0
+}
+
+h3 {
+	font-size:2em;
+	font-family: 'Permanent Marker', cursive;
+	margin: 0;
+	color: #2c539e
+}
+
+h6 {
+	color:white;
+	margin:0;
+}
+
+p {
+	margin:0;
+}
+
+#instructions {
+	padding: 5% 0;
+	height: 40%;
+	text-algin: center;
+	background: #67b235; /* Old browsers */
+	background: -moz-linear-gradient(top, #67b235 0%, #92e064 10%, #b4e391 19%, #493b22 26%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#67b235), color-stop(10%,#92e064), color-stop(19%,#b4e391), color-stop(26%,#493b22)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #67b235 0%,#92e064 10%,#b4e391 19%,#493b22 26%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #67b235 0%,#92e064 10%,#b4e391 19%,#493b22 26%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #67b235 0%,#92e064 10%,#b4e391 19%,#493b22 26%); /* IE10+ */
+	background: linear-gradient(to bottom, #67b235 0%,#92e064 10%,#b4e391 19%,#493b22 26%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67b235', endColorstr='#493b22',GradientType=0 ); /* IE6-9 */
+}
+
+#instructions h2 {
+	font-family: 'Londrina Sketch', cursive;
+	font-size:4em;
+	margin:0;
+	width: 100%
+}
+
+#boxwrapper {
+	width: 90%;
+	padding: 0;
+	text-align:center;
+	margin:auto
+}
+
+.boxes {
+	float:left;
+	width: 240px;
+	height: 400px;
+	background-color: white;
+	border-radius:15px;
+	border: 10px solid black;
+	padding: 2%;
+	margin: 3%;
+}
+
+.hatch {
+	width: 100px;
+}
+
+.hatch:hover {
+	width: 110px;
+}
+
+#footer{
+	clear:both
+}
+
+#bighatch{
+	width: 20%;
+}
+
+	//font-family: 'Eater', cursive;
+	//font-family: 'Londrina Sketch', cursive;
+	//font-family: 'Sniglet', cursive;
+	//font-family: 'Lobster Two', cursive;
+	//font-family: 'Rock Salt', cursive;
+	//font-family: 'Coming Soon', cursive;

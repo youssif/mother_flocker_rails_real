@@ -1,3 +1,3 @@
 class Flock < ActiveRecord::Base
-  # attr_accessible :title, :body
+  attr_accessible :name, :tweeters
 end
