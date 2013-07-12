@@ -1,31 +1,54 @@
-%h1 The Motherflocker Leaderboard
+#show
+	%h1 The Motherflocker Leaderboard
 
-=image_tag 'Flocker.gif'
+	#winwrapper
+		#flying
+			=image_tag 'Flocker.gif', :class=>"flying"
 
-%h1="@"+ @leaderboard.first[:handle]
-%h2 is the MOTHER FLOCKER of the week!
+		#winner
+			%h1="@"+ @leaderboard.first[:handle]
+			%h2 is the MOTHER FLOCKER of the week!
 
-%table
-	%tr
-		%th Rank
-		%th Handle
-		%th Total Points
-		%th Total Retweets
-		%th Total Mentions
-		%th Total Tweets
-	-i=1
-	-@leaderboard.each do |tweeter|
-		%tr
-			%td=i
-			-i+=1
-			%td=tweeter[:handle]
-			%td=tweeter[:total_points]
-			%td=tweeter[:retweet_points]/2
-			%td=tweeter[:mention_points]/2
-			%td=tweeter[:tweet_points]
+#leaderboard
+	=image_tag "hatch.png", :class => "hatch2"
+	#rankings
+		%table
+			%tr
+				%th Rank
+				%th Handle
+				%th Total Points
+				%th Total Retweets
+				%th Total Mentions
+				%th Total Tweets
+			-i=1
+			-@leaderboard.each do |tweeter|
+				%tr
+					%td=i
+					-i+=1
+					%td="@"+tweeter[:handle]
+					%td=tweeter[:total_points]
+					%td=tweeter[:retweet_points]/2
+					%td=tweeter[:mention_points]/2
+					%td=tweeter[:tweet_points]
+	
 
+	#fineprint
+		%h4 Point Calibration
+		%br
+		%p Mother Flocker is a game designed to encourage consistent, quality contributions to the Twitter community.
+		%br
+		%p  Points are calculated based on weekly statistics pulled from the Twitter API. 
+		%br
+		%h3 Points are awarded based on:
+		%ul
+			%li > Total tweets (up to five per day) by a given tweeter
+			%li > Number of user-originated tweets that were retweeted by other users
+			%li > Number of mentions.
+		%br
+		%p Consecutive days of tweeting result in a *bonus* modifier that compounds for each day of consistent contributions.
 
-%h3 Point Calibration
-%p  Points are calculated based off weekly statistics pulled from the Twitter API measuring: the number of tweets (up to five per day) by a given user, the consistency of tweets (used as a point modifier based off consecutive days a user is tweeting), number of user-originated tweets retweeted by other users, and number of mentions.
+	=image_tag "hatch.png", :class => "hatch3"
+	#footer		
+		%h6 Web App Design by Lydia Guarino and Youssif Abdulhamid 2013
 
 
