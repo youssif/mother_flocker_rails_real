@@ -1,8 +1,10 @@
-%h1 New flock
+%div.top_div
+	%h1 New flock
 
 
-=image_tag "hatch.png", :class => "bighatch"
+	=image_tag "hatch.png", :class => "bighatch"
 
-=render 'form'
+%div.bottom_div
+	=render 'form'
 
-=link_to 'Back', flocks_path 
+	=link_to 'Back', flocks_path 
