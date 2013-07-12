@@ -142,6 +142,13 @@ p {
 	font-size: 25px;
 	border: 2px solid black;
 	margin-top: -2px;
+	transition: 0.5s;
+}
+
+.new_tweeter:hover{
+	opacity: 0.8;
+	border: 2px solid blue;
+	transition: 0.5s;
 }
 
 .flock_create{
@@ -153,6 +160,13 @@ p {
 	font-size: 25px;
 	border: 2px solid black;
 	margin-top: 10px;
+	transition: 0.5s;
+}
+
+.flock_create:hover{
+	opacity: 0.8;
+	transition: 0.5s;
+	border: 2px solid blue;
 }
 
 #new_flock{

@@ -21,6 +21,7 @@ function generate_new_form(){
 $(document).ready(function() {
 
 	
+	
 	$('.new_tweeter').click(function(event){
 		event.preventDefault();
 		// $('form div:hatch_form').append('.form_div');
@@ -30,6 +31,12 @@ $(document).ready(function() {
 		else{
 			alert("Your flock is full. Get flocking!");
 		}
+		
+	});
+
+	$('.flock_create').click(function(){
+			$(this).prop('disabled', true);
+			$(this).attr('Value', "Werkin' on it..");
 	});
 
 	// $('.flock_create').click(function(event){
