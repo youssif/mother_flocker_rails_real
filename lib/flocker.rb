@@ -1,7 +1,7 @@
 module Flocker
 	class Email
-	  @@username = 'motherflockerleaderboard'
-	  @@password ='workhardplayhard'
+	  @@username=ENV['USERNAME']
+	  @@password=ENV['PSWD']
 
 	  def self.set_handles(tweeters, emails)
 	    @tweeters = tweeters
