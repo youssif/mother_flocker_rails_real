@@ -35,8 +35,11 @@ $(document).ready(function() {
 	});
 
 	$('.flock_create').click(function(){
-			$(this).prop('disabled', true);
-			$(this).attr('Value', "Werkin' on it..");
+		$(this).attr('Value', "Werkin' on it..");
+
+		$('.flock_create').click(function(){
+				$(this).prop('disabled', true);
+		});
 	});
 
 	// $('.flock_create').click(function(event){
